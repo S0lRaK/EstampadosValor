@@ -1,4 +1,67 @@
 body
 {
-	background: url('img/Taller-1.jpg');
+	font-family: Verdana, Geneva, sans-serif; /* custom font */
+}
+
+header
+{
+	height: 955px;
+	background: url('../img/Taller_1.jpg');
+}
+/*
+header li:first-child a
+{
+	margin-left: 0;
+}
+*/
+header a
+{
+	color: lavender;
+	font-size: 24px;
+	font-weight: normal;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+section
+{
+	border-top: 3px solid crimson;
+}
+
+h2
+{
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#aboutUs
+{
+	background-color: aquamarine;
+}
+
+#services
+{
+	background-color: burlywood;
+}
+
+#gallery
+{
+	background-color: lavenderblush;
+}
+
+#promos
+{
+	background-color: powderblue;
+}
+
+#customers
+{
+	background-color: palegoldenrod;
+}
+
+#contact
+{
+	background-color: paleturquoise;
 }
