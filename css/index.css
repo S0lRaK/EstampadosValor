@@ -8,12 +8,14 @@ header
 	height: 955px;
 	background: url('../img/Taller_1.jpg');
 }
+
 /*
 header li:first-child a
 {
 	margin-left: 0;
 }
 */
+
 header a
 {
 	color: lavender;
@@ -24,44 +26,75 @@ header a
 	padding-left: 10px;
 	padding-right: 10px;
 }
+/*
+header:first-child a
+{
+	margin-top: 12px;
+	position: relative;
+	top: 14px;
+	left: 14px;
+}
 
+nav li
+{
+	display: inline;
+}
+*/
 section
 {
-	border-top: 3px solid crimson;
+	padding: 100px 0 70px 0;
 }
 
 h2
 {
 	font-size: 45px;
 	font-weight: bold;
+	margin-bottom: 42px;
 }
 
 #aboutUs
 {
-	background-color: aquamarine;
+	border-top: 2px solid crimson;
+	background: url('../img/textures/noisy_grid.png');
 }
 
 #services
 {
-	background-color: burlywood;
+	border-top: 2px solid crimson;
+	background: url('../img/textures/scribble_light.png');
 }
 
 #gallery
 {
+	border-top: 2px solid crimson;
 	background-color: lavenderblush;
 }
 
+#item-carousel-4 h3
+{
+	color: black;
+}
+
+/*
+#carousel-gallery .glyphicon
+{
+	z-index: 100;
+}
+*/
 #promos
 {
+	border-top: 2px solid crimson;
 	background-color: powderblue;
 }
 
 #customers
 {
+	border-top: 2px solid crimson;
 	background-color: palegoldenrod;
 }
 
 #contact
 {
+	border-top: 2px solid crimson;
 	background-color: paleturquoise;
 }

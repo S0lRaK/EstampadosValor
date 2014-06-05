@@ -18,10 +18,12 @@
 	</head>
 	<body>
 		<header>
-			<a id="logo" href="#home">Estampados Valor</a>
+			<!--<ul class="pull-left">
+				<a id="logo" href="#home">Estampados Valor</a>
+			</ul>
 			<nav>
 				<div class="container">
-					<ul>
+					<ul class="pull-right">
 						<li><a href="#aboutUs">Conócenos</a></li>
 						<li><a href="#services">Servicios</a></li>
 	        			<li><a href="#gallery">Galería</a></li>
@@ -30,12 +32,64 @@
 	        			<li><a href="#contact">Contacto</a></li>
 					</ul>
 				</div>
+			</nav>-->
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+      					</button>
+      					<a id="logo" class="navbar-brand" href="#home">Estampados Valor</a>
+    				</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+    				<div class="collapse navbar-collapse" id="navbar-collapse">
+      					<ul class="nav navbar-nav navbar-right">
+        					<li><a href="#aboutUs">Conócenos</a></li>
+        					<li><a href="#services">Servicios</a></li>
+	        				<li><a href="#gallery">Galería</a></li>
+	        				<li><a href="#promos">Promociones</a></li>
+	        				<li><a href="#customers">Clientes</a></li>
+	        				<li><a href="#contact">Contacto</a></li>
+						</ul>
+       				</div><!-- /.navbar-collapse -->
+  				</div><!-- /.container-fluid -->
 			</nav>
 			<section id="home"></section>
 		</header>
 		<section id="aboutUs">
 			<div class="container">
 				<h2>Conócenos</h2>
+				<div class="row">
+					<div class="col-md-8">
+						<p class="text-justify">Estampados Valor se fundó en el año 1983 en Mataró (Barcelona). Nos dedicamos a toda clase de estampación en pronto moda y publicidad. También colocamos transfers. Aunque nuestra especialidad son las lacas secadas.</p>
+					</div>
+					<div class="col-md-2">
+						<div class="thumbnail">
+							<img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xaf1/t31.0-8/458118_479146588790534_82877354_o.jpg">
+						</div>
+						<div class="thumbnail">
+							<img src="https://scontent-a-mad.xx.fbcdn.net/hphotos-xaf1/t31.0-8/457913_479148142123712_459493979_o.jpg">
+						</div>
+						<div class="thumbnail">
+							<img src="https://scontent-a-mad.xx.fbcdn.net/hphotos-prn2/t31.0-8/704879_479147832123743_1196633873_o.jpg">
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="thumbnail">
+							<img src="https://scontent-b-mad.xx.fbcdn.net/hphotos-xpa1/t31.0-8/704165_479146955457164_1223640490_o.jpg">
+						</div>
+						<div class="thumbnail">
+							<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/t31.0-8/706141_479151908790002_1974286927_o.jpg">
+						</div>
+						<div class="thumbnail">
+							<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/t31.0-8/240608_479147635457096_2078212161_o.jpg">
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="services">
@@ -46,6 +100,96 @@
 		<section id="gallery">
 			<div class="container">
 				<h2>Galería</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="table-responsive">
+							<table class="table table-striped">
+								<caption>Tabla de precios</caption>
+								<tr>
+									<th>Tipo</th>
+									<th>Precio</th>
+								</tr>
+								<tr>
+									<td>xxx</td>
+									<td>xx.xx <span class="glyphicon glyphicon-euro"></span></td>
+								</tr>
+								<tr>
+									<td>xxx</td>
+									<td>xx.xx <span class="glyphicon glyphicon-euro"></td>
+								</tr>
+								<tr>
+									<td>xxx</td>
+									<td>xx.xx <span class="glyphicon glyphicon-euro"></td>
+								</tr>
+								<tr>
+									<td>xxx</td>
+									<td>xx.xx <span class="glyphicon glyphicon-euro"></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div id="carousel-gallery" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-gallery" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-gallery" data-slide-to="1"></li>
+								<li data-target="#carousel-gallery" data-slide-to="2"></li>
+								<li data-target="#carousel-gallery" data-slide-to="3"></li>
+								<li data-target="#carousel-gallery" data-slide-to="4"></li>
+								<li data-target="#carousel-gallery" data-slide-to="5"></li>
+								<li data-target="#carousel-gallery" data-slide-to="6"></li>
+								<li data-target="#carousel-gallery" data-slide-to="7"></li>
+								<li data-target="#carousel-gallery" data-slide-to="8"></li>
+							</ol>
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div id="item-carousel-1" class="item active">
+									<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-frc3/v/t34.0-12/907818_158166784352363_1728191451_n.jpg?oh=b4642f8c616faa87a67d602493052f5d&oe=5391E259&__gda__=1402079252_0706508a729e3f12325835e4eb216781">
+								</div>
+								<div id="item-carousel-2" class="item">
+									<img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xfa1/t1.0-9/420673_545747975463728_510046836_n.jpg">
+								</div>
+								<div id="item-carousel-3" class="item">
+									<img src="https://scontent-a-mad.xx.fbcdn.net/hphotos-xap1/t1.0-9/935370_545748145463711_1629161696_n.jpg">
+								</div>
+								<div id="item-carousel-4" class="item">
+									<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/t1.0-9/1912480_692004317504759_1530758325_n.jpg">
+									<div class="carousel-caption">
+										<h3>Philosopher en fondo pistacho</h3>
+										<p>13/03/2014</p>
+									</div>
+								</div>
+								<div id="item-carousel-5" class="item">
+									<img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/t1.0-9/1004836_692004797504711_633973140_n.jpg">
+									<div class="carousel-caption">
+										<h3>Philosopher en fondo negro</h3>
+										<p>13/03/2014</p>
+									</div>
+								</div>
+								<div id="item-carousel-6" class="item">
+									<img src="https://scontent-b-mad.xx.fbcdn.net/hphotos-xfp1/l/t1.0-9/10013835_701779439860580_902928404616791857_n.jpg">
+								</div>
+								<div id="item-carousel-7" class="item">
+									<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xap1/t1.0-9/10251896_701779453193912_9130636255997443144_n.jpg">
+								</div>
+								<div id="item-carousel-8" class="item">
+									<img src="https://scontent-b-mad.xx.fbcdn.net/hphotos-xap1/t1.0-9/10156099_701780079860516_2554184245480155693_n.jpg">
+								</div>
+								<div id="item-carousel-9" class="item">
+									<img src="https://scontent-b-mad.xx.fbcdn.net/hphotos-xpa1/t1.0-9/10173626_701779789860545_5065576558496381422_n.jpg">
+								</div>
+							</div>
+							<!-- Controls -->
+							<a class="left carousel-control" href="#carousel-gallery" data-slide="prev">
+								<span class="glyphicon glypchicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#carousel-gallery" data-slide="next">
+								<span class="glyphicon glypchicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="promos">
@@ -61,6 +205,17 @@
 		<section id="contact">
 			<div class="container">
 				<h2>Contacto</h2>
+				<address>
+  					<strong>Estampados Valor</strong><br>
+  					Ronda Bellavista, 19<br>
+  					08303 Mataró<br>
+  					Barcelona<br>
+  					<abbr title="Telefono">Tlf:</abbr> +34 93 799 11 51 | +34 657 53 78 13
+				</address>
+				<address>
+  					<strong>Lorenzo Jesús Díaz Bueno</strong><br>
+  					<a href="mailto:lorenzojdb@hotmail.com">lorenzojdb@hotmail.com</a>
+				</address>
 			</div>
 		</section>
 		<!--
